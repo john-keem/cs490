@@ -62,13 +62,16 @@ async function initDB() {
         price DECIMAL(10, 2) NOT NULL,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       )
-    `
-  }
-  catch(error){
+    `;
+
+    console.log("Database initialized successfully");
+  } catch (error) {
     console.log("Error initDB", error);
   }
 }
 
-app.listen(PORT, () => {
-  console.log("Server is running on port " + PORT);
+initDB().then(() => {
+  app.listen(PORT, () => {
+    console.log("Server is running on port " + PORT);
+  });
 });
