@@ -4,7 +4,9 @@
   "description": "This repository contains the code and work for creating a product store using the PERN stack. PERN stands for Postgres, Express, React, Node.js",
   "main": "backend/server.js",
   "scripts": {
-    "dev": "nodemon backend/server.js"
+    "dev": "nodemon backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/server.js"
   },
   "repository": {
     "type": "git",
