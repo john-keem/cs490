@@ -6,3 +6,4 @@ The following is a link to the web application:
 https://cs490.onrender.com
 
 Note it may take a little bit to load the webpage.
+Please wait patiently until the webpage fully loads.
