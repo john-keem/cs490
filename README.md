@@ -1,6 +1,6 @@
-# pern-full-stack
+# cs490
 
-This repository contains the code and work for creating a product store using the PERN stack.
+This repository contains the code and work for creating an interactive items store page.
 
 The following is a link to the web application:
 https://pern-full-stack.onrender.com/
